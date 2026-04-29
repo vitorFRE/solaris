@@ -1,21 +1,22 @@
-# React + TypeScript + Vite + shadcn/ui
+# Landing Page - Energia Solar
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Este projeto é uma landing page para captação de clientes de energia solar, desenvolvida com React, TypeScript, Vite e shadcn/ui.
 
-## Adding components
+## Tecnologias
 
-To add components to your app, run the following command:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+
+## Como rodar localmente
 
 ```bash
-npx shadcn@latest add button
+pnpm install
+pnpm dev
 ```
 
-This will place the ui components in the `src/components` directory.
+## Deploy
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+- URL: [https://beamish-eclair-a787ea.netlify.app/](https://beamish-eclair-a787ea.netlify.app/)
