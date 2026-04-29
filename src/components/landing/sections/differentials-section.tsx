@@ -29,7 +29,7 @@ export function DifferentialsSection() {
               whileHover={{ y: -4 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="flex size-12 items-center justify-center rounded-xl bg-[#22c55e]/12 text-[#16a34a]">
+              <div className="flex size-12 items-center justify-center rounded-xl bg-[#0450E7]/12 text-[#0450E7]">
                 <item.icon className="size-6" stroke={1.5} />
               </div>
               <h3 className="mt-5 text-lg font-bold text-zinc-900">{item.title}</h3>

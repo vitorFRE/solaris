@@ -23,7 +23,7 @@ export function AboutSection() {
     <section id="sobre" className="w-full bg-white py-16 lg:py-24">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div className="space-y-6">
-          <p className="text-[11px] font-bold tracking-[0.18em] text-[#16a34a] uppercase">
+          <p className="text-[11px] font-bold tracking-[0.18em] text-[#0450E7] uppercase">
             Sobre nós
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
@@ -45,7 +45,7 @@ export function AboutSection() {
                 key={s.label}
                 className="rounded-xl border border-zinc-200/80 bg-zinc-50/80 p-4"
               >
-                <s.icon className="size-5 text-[#16a34a]" stroke={1.5} />
+                <s.icon className="size-5 text-[#0450E7]" stroke={1.5} />
                 <p className="mt-3 text-xl font-bold text-zinc-900">{s.value}</p>
                 <p className="mt-1 text-xs font-medium text-zinc-600">{s.label}</p>
               </div>

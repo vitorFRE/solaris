@@ -56,11 +56,11 @@ Podem me enviar uma estimativa de economia e próximos passos?`
         {...inViewProps}
       >
         <motion.div className="max-w-xl space-y-7" variants={cardReveal}>
-          <p className="inline-flex rounded-full bg-[#22c55e]/15 px-3 py-1.5 text-[11px] font-bold tracking-[0.14em] text-[#15803d] uppercase">
+          <p className="inline-flex rounded-full bg-[#0450E7]/15 px-3 py-1.5 text-[11px] font-bold tracking-[0.14em] text-[#033FC0] uppercase">
             Energia limpa, economia real
           </p>
           <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
-            Transforme o sol em <span className="text-[#16a34a]">economia</span>{" "}
+            Transforme o sol em <span className="text-[#0450E7]">economia</span>{" "}
             para sua casa ou empresa.
           </h1>
           <p className="max-w-lg text-lg text-zinc-800 sm:text-zinc-700">
@@ -68,7 +68,7 @@ Podem me enviar uma estimativa de economia e próximos passos?`
             ponta e instalação especializada.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <Button className="h-11 w-full rounded-lg bg-[#16a34a] px-6 text-sm font-semibold text-white hover:bg-[#15803d] sm:w-auto">
+            <Button className="h-11 w-full rounded-lg bg-[#0450E7] px-6 text-sm font-semibold text-white hover:bg-[#033FC0] sm:w-auto">
               Solicite um orçamento <IconArrowRight className="size-4" />
             </Button>
             <Button
@@ -92,7 +92,7 @@ Podem me enviar uma estimativa de economia e próximos passos?`
           </p>
           <form onSubmit={handleSimulationSubmit}>
             <input
-              className="mt-4 h-11 w-full rounded-lg border border-zinc-200 bg-white px-3 text-sm text-zinc-800 shadow-sm outline-none placeholder:text-zinc-400 focus:border-[#16a34a] focus:ring-2 focus:ring-[#16a34a]/25"
+              className="mt-4 h-11 w-full rounded-lg border border-zinc-200 bg-white px-3 text-sm text-zinc-800 shadow-sm outline-none placeholder:text-zinc-400 focus:border-[#0450E7] focus:ring-2 focus:ring-[#0450E7]/25"
               placeholder="Seu consumo médio (kWh/mês)"
               type="text"
               inputMode="numeric"
@@ -106,7 +106,7 @@ Podem me enviar uma estimativa de economia e próximos passos?`
             />
             <Button
               type="submit"
-              className="mt-4 h-11 w-full rounded-lg bg-[#16a34a] text-sm font-semibold text-white hover:bg-[#15803d]"
+              className="mt-4 h-11 w-full rounded-lg bg-[#0450E7] text-sm font-semibold text-white hover:bg-[#033FC0]"
             >
               Simular agora
             </Button>
@@ -127,8 +127,8 @@ Podem me enviar uma estimativa de economia e próximos passos?`
                 className="flex items-start gap-3"
                 variants={cardReveal}
               >
-                <div className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg bg-[#22c55e]/12">
-                  <item.icon className="size-[1.125rem] text-[#16a34a]" />
+                <div className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg bg-[#0450E7]/12">
+                  <item.icon className="size-[1.125rem] text-[#0450E7]" />
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm font-bold text-zinc-900">

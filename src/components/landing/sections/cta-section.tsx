@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function CtaSection() {
   return (
-    <section className="w-full bg-linear-to-r from-[#16a34a] via-[#22c55e] to-[#4ade80] py-12 lg:py-14">
+    <section className="w-full bg-linear-to-r from-[#033FC0] via-[#0450E7] to-[#2563EB] py-12 lg:py-14">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-6 md:flex-row md:items-center md:justify-between md:gap-10">
         <div className="flex max-w-2xl flex-col gap-4 text-center md:flex-row md:items-center md:text-left">
           <span className="mx-auto flex size-14 shrink-0 items-center justify-center rounded-2xl bg-white/20 md:mx-0">

@@ -86,13 +86,13 @@ export function LandingPage() {
       <div className="fixed right-4 bottom-8 z-50 lg:right-[max(1.5rem,calc((100vw-72rem)/2+1.5rem))]">
         <motion.span
           aria-hidden
-          className="absolute inset-0 rounded-full bg-[#22c55e]/50"
+          className="absolute inset-0 rounded-full bg-[#0450E7]/50"
           animate={{ scale: [1, 1.6, 2], opacity: [0, 0.45, 0] }}
           transition={{ duration: 2.2, repeat: Infinity, ease: "linear" }}
         />
         <motion.span
           aria-hidden
-          className="absolute inset-0 rounded-full bg-[#16a34a]/40"
+          className="absolute inset-0 rounded-full bg-[#0450E7]/40"
           animate={{ scale: [1, 1.8, 2.4], opacity: [0, 0.35, 0] }}
           transition={{ duration: 2.2, repeat: Infinity, ease: "linear", delay: 0.7 }}
         />
@@ -101,13 +101,13 @@ export function LandingPage() {
           target="_blank"
           rel="noreferrer"
           aria-label="Falar no WhatsApp"
-          className="relative flex size-14 items-center justify-center rounded-full bg-[#16a34a] text-white shadow-[0_16px_40px_-16px_rgba(22,163,74,0.9)] transition-transform hover:scale-105"
+          className="relative flex size-14 items-center justify-center rounded-full bg-[#0450E7] text-white shadow-[0_16px_40px_-16px_rgba(4,80,231,0.9)] transition-transform hover:scale-105"
           animate={{
             y: [0, -3, 0],
             boxShadow: [
-              "0 16px 40px -16px rgba(22,163,74,0.9)",
-              "0 20px 44px -14px rgba(22,163,74,0.95)",
-              "0 16px 40px -16px rgba(22,163,74,0.9)",
+              "0 16px 40px -16px rgba(4,80,231,0.9)",
+              "0 20px 44px -14px rgba(4,80,231,0.95)",
+              "0 16px 40px -16px rgba(4,80,231,0.9)",
             ],
           }}
           transition={{

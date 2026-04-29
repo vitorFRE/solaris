@@ -28,10 +28,10 @@ export function StepsSection() {
                 variants={cardReveal}
               >
                 <div className="relative">
-                  <div className="flex size-[4.5rem] items-center justify-center rounded-full border-2 border-[#bbf7d0] bg-white shadow-sm">
-                    <step.icon className="size-7 text-[#16a34a]" stroke={1.5} />
+                  <div className="flex size-[4.5rem] items-center justify-center rounded-full border-2 border-[#bfdbfe] bg-white shadow-sm">
+                    <step.icon className="size-7 text-[#0450E7]" stroke={1.5} />
                   </div>
-                  <span className="absolute -top-1 -right-1 flex size-7 items-center justify-center rounded-full bg-[#16a34a] text-xs font-bold text-white shadow">
+                  <span className="absolute -top-1 -right-1 flex size-7 items-center justify-center rounded-full bg-[#0450E7] text-xs font-bold text-white shadow">
                     {index + 1}
                   </span>
                 </div>

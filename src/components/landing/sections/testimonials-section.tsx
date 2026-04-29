@@ -30,7 +30,7 @@ export function TestimonialsSection() {
               whileHover={{ y: -4 }}
               transition={{ duration: 0.2 }}
             >
-              <IconQuote className="size-9 text-[#16a34a]/35" stroke={1.25} aria-hidden />
+              <IconQuote className="size-9 text-[#0450E7]/35" stroke={1.25} aria-hidden />
               <blockquote className="mt-4 grow text-sm leading-relaxed text-zinc-700">
                 “{item.quote}”
               </blockquote>

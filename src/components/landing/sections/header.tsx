@@ -46,7 +46,7 @@ export function Header({ activeHref = "#inicio" }: HeaderProps) {
           onClick={(event) => handleNavClick(event, "#inicio")}
           className="flex shrink-0 items-center gap-3 text-zinc-900"
         >
-          <span className="flex size-11 items-center justify-center rounded-xl bg-[#22c55e]/12 text-[#16a34a]">
+          <span className="flex size-11 items-center justify-center rounded-xl bg-[#0450E7]/12 text-[#0450E7]">
             <IconSolarPanel className="size-6" stroke={1.5} />
           </span>
           <span className="leading-tight font-bold tracking-tight">
@@ -75,7 +75,7 @@ export function Header({ activeHref = "#inicio" }: HeaderProps) {
               >
                 {isActive ? (
                   <span
-                    className="absolute top-0 right-0 left-0 h-0.5 rounded-full bg-[#16a34a]"
+                    className="absolute top-0 right-0 left-0 h-0.5 rounded-full bg-[#0450E7]"
                     aria-hidden
                   />
                 ) : null}
@@ -92,7 +92,7 @@ export function Header({ activeHref = "#inicio" }: HeaderProps) {
             rel="noreferrer"
             className="flex shrink-0 items-center gap-2 text-sm font-semibold text-zinc-800"
           >
-            <IconBrandWhatsapp className="size-5 text-[#16a34a]" />
+            <IconBrandWhatsapp className="size-5 text-[#0450E7]" />
             <span className="hidden lg:inline">(11) 99999-9999</span>
           </a>
 

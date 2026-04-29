@@ -44,7 +44,7 @@ export function ProjectCasesSection() {
               </div>
               <div className="flex flex-col gap-6">
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-[#22c55e]/12 px-3 py-1 text-xs font-semibold text-[#15803d]">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-[#0450E7]/12 px-3 py-1 text-xs font-semibold text-[#033FC0]">
                     <IconSolarPanel className="size-3.5" stroke={1.75} />
                     {project.systemKwp}
                   </span>
@@ -61,8 +61,8 @@ export function ProjectCasesSection() {
                     <p className="mt-1 text-lg font-bold text-zinc-900">{project.beforeBill}</p>
                     <p className="mt-0.5 text-xs text-zinc-600">média da fatura</p>
                   </div>
-                  <div className="rounded-xl border border-[#bbf7d0]/80 bg-[#f0fdf4]/80 p-4">
-                    <p className="text-[11px] font-bold tracking-wider text-[#15803d] uppercase">
+                  <div className="rounded-xl border border-[#bfdbfe]/80 bg-[#eff6ff]/80 p-4">
+                    <p className="text-[11px] font-bold tracking-wider text-[#033FC0] uppercase">
                       Agora
                     </p>
                     <p className="mt-1 text-lg font-bold text-[#166534]">{project.afterBill}</p>
@@ -70,7 +70,7 @@ export function ProjectCasesSection() {
                   </div>
                 </div>
                 <div className="flex flex-wrap items-end gap-2 rounded-xl border border-zinc-200/80 bg-white p-4 shadow-sm">
-                  <IconArrowDownRight className="size-5 shrink-0 text-[#16a34a]" stroke={1.5} />
+                  <IconArrowDownRight className="size-5 shrink-0 text-[#0450E7]" stroke={1.5} />
                   <div>
                     <p className="text-sm font-medium text-zinc-600">Economia mensal estimada</p>
                     <p className="text-2xl font-bold text-zinc-900">{project.monthlySavings}</p>

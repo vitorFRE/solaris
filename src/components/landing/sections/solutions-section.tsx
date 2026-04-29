@@ -36,7 +36,7 @@ export function SolutionsSection() {
                     alt={solution.imageAlt}
                     className="aspect-[16/11] w-full object-cover"
                   />
-                  <div className="absolute right-4 bottom-4 flex size-11 items-center justify-center rounded-full border border-zinc-200 bg-white text-[#16a34a] shadow-md">
+                  <div className="absolute right-4 bottom-4 flex size-11 items-center justify-center rounded-full border border-zinc-200 bg-white text-[#0450E7] shadow-md">
                     <solution.icon className="size-5" stroke={1.5} />
                   </div>
                 </div>
