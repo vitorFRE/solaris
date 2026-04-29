@@ -11,7 +11,10 @@ import {
 } from "@tabler/icons-react"
 import type React from "react"
 
-type IconComponent = React.ComponentType<{ className?: string }>
+type IconComponent = React.ComponentType<{
+  className?: string
+  stroke?: string | number
+}>
 
 export const navItems: Array<{ href: string; label: string }> = [
   { href: "#inicio", label: "Início" },
